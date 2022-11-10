@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="class"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-24 06:28:35 PM"/>
+        <attribute name="created" value="Y2xhc3M7IE40MTgtMTU7IDIwMjItMDktMjQ7IDA4OjQ5OjM2IEFNOyAyMjky"/>
+        <attribute name="edited" value="Y2xhc3M7IE40MTgtMTU7IDIwMjItMDktMjQ7IDEwOjIzOjAzIEFNOyAyMjcx"/>
+        <attribute name="edited" value="S2hhbmRva2VyO0FUTEFTLUlVMFYzSURWNzsyMDIyLTA5LTI0OzA2OjI4OjM1IFBNOzE7MzM1OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;What is your first name?&quot;" newline="True"/>
+            <declare name="FirstName" type="String" array="False" size=""/>
+            <input variable="firstname"/>
+            <output expression="&quot;What is your last name?&quot;" newline="True"/>
+            <declare name="LastName" type="String" array="False" size=""/>
+            <input variable="lastname"/>
+            <output expression="&quot;How old are you?&quot;" newline="True"/>
+            <declare name="Age" type="Integer" array="False" size=""/>
+            <input variable="Age"/>
+            <output expression="FirstName&amp; &quot; &quot; &amp;LastName&amp; &quot; is &quot; &amp;Age&amp; &quot; years old.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

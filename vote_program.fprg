@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pdinh"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-24 11:46:08 AM"/>
+        <attribute name="created" value="cGRpbmg7IE40MTgtMjU7IDIwMjItMDktMjQ7IDEwOjM2OjU3IEFNOyAyMjgy"/>
+        <attribute name="edited" value="cGRpbmg7IE40MTgtMjU7IDIwMjItMDktMjQ7IDExOjQ2OjA4IEFNOyAyMjgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Enter your grade points &quot;"/>
+            <declare name="grade" type="Integer" array="False" size="" variables="grade"/>
+            <input variable="grade"/>
+            <if expression="grade &gt;= 90 and grade &lt;= 100">
+                <then>
+                    <output expression="&quot;You've got A&quot;"/>
+                </then>
+                <else>
+                    <if expression="grade &gt;= 80 and grade &lt;= 89">
+                        <then>
+                            <output expression="&quot;You've got B&quot;"/>
+                        </then>
+                        <else>
+                            <if expression="grade &gt;= 70 and grade &lt;= 79">
+                                <then>
+                                    <output expression="&quot;You've got C&quot;"/>
+                                </then>
+                                <else>
+                                    <if expression="grade &lt; 70">
+                                        <then>
+                                            <output expression="&quot;You've got F &quot;"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

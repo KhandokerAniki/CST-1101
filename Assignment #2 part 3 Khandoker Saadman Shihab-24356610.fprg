@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Khandoker"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-01 10:22:59 PM"/>
+        <attribute name="created" value="S2hhbmRva2VyO0FUTEFTLUlVMFYzSURWNzsyMDIyLTEwLTAxOzEwOjE0OjM4IFBNOzMyMzE="/>
+        <attribute name="edited" value="S2hhbmRva2VyO0FUTEFTLUlVMFYzSURWNzsyMDIyLTEwLTAxOzEwOjIyOjU5IFBNOzE7MzM0MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;What is your last name?&quot;" newline="True"/>
+            <declare name="lastname" type="String" array="False" size=""/>
+            <input variable="lastname"/>
+            <output expression="&quot;What is your first name?&quot;" newline="True"/>
+            <declare name="firstname" type="String" array="False" size=""/>
+            <input variable="firstname"/>
+            <output expression="&quot;What is your employee ID?&quot;" newline="True"/>
+            <declare name="emplid" type="Integer" array="False" size=""/>
+            <input variable="emplid"/>
+            <output expression="&quot;What is your pay rate?&quot;" newline="True"/>
+            <declare name="payrate" type="Real" array="False" size=""/>
+            <input variable="payrate"/>
+            <output expression="&quot;How many hours did you work this week?&quot;" newline="True"/>
+            <declare name="wrkhr" type="Integer" array="False" size=""/>
+            <input variable="wrkhr"/>
+            <output expression="&quot;First Name: &quot;&amp;firstname" newline="True"/>
+            <output expression="&quot;Last Name: &quot;&amp;lastname" newline="True"/>
+            <output expression="&quot;Employee ID: &quot;&amp;emplID" newline="True"/>
+            <output expression="&quot;Check Total: &quot;&amp;payrate*wrkhr" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
